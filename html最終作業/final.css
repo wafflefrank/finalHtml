@@ -47,15 +47,97 @@ table {
 	border-spacing: 0;
 }
 
-
+body{
+	font-family: "Gabriola";
+}
 /* start */
 .wrap{
 	width: 1024px;
 	margin: 0 auto;
 }
+/* 背景圖片 */
+.header{
+	background-image: url(https://i.imgur.com/h5GNSCG.jpg);
+	height: 560px;
+	width: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 1;
+}
+/* banner hex cafe */
+.header span{
+	color: rgb(85, 180, 180);
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.header p{
+	position: absolute;
+	top: 200px;
+	left: 600px;
+	color: white;
+	font-size: 26px;
+	font-weight: bold;
+	z-index: 2 ;
+	line-height: 1.4;
+}
+/* banner 按鈕 */
+.btn img{
+	top:303px ;
+	left:670px;
+	position: absolute;
+}
+.btn input{
+	top:300px ;
+	left:600px;
+	width: 100px;
+	height: 30px;
+	position: absolute;
+	border-radius: 5px;
+	color:white;
+	background:  rgb(70, 148, 148);
+	font-size: 20px;
+	cursor: pointer;
+	padding-right: 25px;
+}
 .title{
 	display: flex;
+	justify-content: space-between;
+    background:rgba(238, 232, 170, 0.274);
+	padding: 10px;
+
+}
+.logo{
+	background-image: url(https://i.imgur.com/PoXF1gU.png);
+	display: block;
+	width: 177px;
+	height: 37px;
+	overflow: hidden;
+	text-indent: 101%;
+	white-space: nowrap;
 }
 .menu{
 	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.menu li {
+margin-right: 15px;
+padding: 0 10px;
+
+}
+.menu li a{
+	text-decoration: none;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	display: block;	
+}
+
+.menu li a:hover{
+	color: teal;
+	transition: 0.7s;
+	background:rgba(255, 255, 255, 0.795);
+	border-radius: 5px;
+	transform: scale(1.2);
 }
