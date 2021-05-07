@@ -100,6 +100,11 @@ body{
 	cursor: pointer;
 	padding-right: 25px;
 }
+/* 按鈕點擊特效 */
+.btn input:hover{
+	color: burlywood;
+	background: rgb(3, 43, 34);
+}
 .title{
 	display: flex;
 	justify-content: space-between;
@@ -140,4 +145,21 @@ padding: 0 10px;
 	background:rgba(255, 255, 255, 0.795);
 	border-radius: 5px;
 	transform: scale(1.2);
+}
+/* 精選咖啡豆內容 */
+.title2{
+	display: flex;
+	justify-content: space-between;
+	margin:50px 50px 0px ;
+}
+.title2 h3{
+	font-size: 36px;
+	color: teal;
+	font-weight: bold;
+	font-family: "微軟正黑體";
+}
+.title2 span{
+	color: darkgrey;
+	font-size: 20px;
+	margin-left: 10px;
 }
