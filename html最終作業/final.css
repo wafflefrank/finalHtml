@@ -109,7 +109,7 @@ body{
 .title{
 	display: flex;
 	justify-content: space-between;
-    background:rgba(238, 232, 170, 0.274);
+    background:rgba(238, 232, 170, 0.151);
 	padding: 10px;
 
 }
@@ -318,7 +318,7 @@ padding: 0 10px;
 /* 底部樣式 */
 .footer{
 	display: flex;
-	background: burlywood;
+	background: #a79b84;
 	padding: 40px;
 	justify-content: space-between;
 }
@@ -340,3 +340,92 @@ padding: 0 10px;
 .app li {
 	margin-right: 20px;
 }
+
+
+
+/*          product   產品頁              */
+.product-header{
+	background-image: url(https://i.imgur.com/vdBtxlc.jpg);
+	height: 560px;
+	width: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: 1;
+}
+.product-logo{
+	background-image: url(https://i.imgur.com/PoXF1gU.png);
+	display: block;
+	width: 177px;
+	height: 37px;
+	overflow: hidden;
+	text-indent: 101%;
+	white-space: nowrap;
+}
+.product-title{
+	display: flex;
+	justify-content: space-between;
+    background:rgba(238, 232, 170, 0.151);
+	padding: 10px;
+}
+
+.product-header span{
+	color: rgb(85, 180, 180);
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.product-header p{
+	position: absolute;
+	top: 250px;
+	right: 450px;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	z-index: 2 ;
+	line-height: 2;
+}
+
+     /*  咖啡豆step1~3  */
+.product-coffeeInfo{
+	margin-top: 50px;
+}
+.product-select{
+	margin-top: 50px;
+	font-size: 36px;
+	color: teal;
+	font-weight: bold;
+	font-family: "微軟正黑體";
+}
+.step1{
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	justify-content: space-between;
+}
+.step2{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.step3{
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	justify-content: space-between;
+}
+.product-pic img{
+	box-shadow: 7px 7px 5px rgba(128, 128, 128, 0.795);
+}
+.product-txt{
+padding: 100px 20px;
+box-shadow: 2px 2px 1px rgba(56, 119, 105, 0.548),0 0 8px rgba(5, 37, 41, 0.6);
+}
+.product-txt h3{
+	color: darkgrey;
+	font-size: 40px;
+	font-weight: bold;
+}
+.product-txt span{
+	font-size: 60px;
+}
+
